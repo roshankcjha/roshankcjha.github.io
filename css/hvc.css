@@ -189,6 +189,12 @@ footer{
   color: #fff;
 }
 
+@media(min-aspect-ratio: 16/9){
+#vbg  {width:100%;height:auto;}
+}
+@media(max-aspect-ratio : 16/9){
+#vbg{width:auto;height: 100%;}
+}
 @media(min-width: 992px){
 .navbar-expand-lg .navbar-nav .nav-link{
    padding-right: 1rem;
