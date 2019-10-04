@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Carter+One|Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+
 
 
 *{
@@ -7,7 +8,7 @@
 }
 
 body{
-	font-family: 'Josefin Sans',sans-serif;
+	font-family: 'Barlow',sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -279,7 +280,7 @@ font-size:1.5rem;
 .contact{
 	position: relative;
 	padding:100px 0;
-	background:url(u2.jpg);
+	
 	background-size: cover;
 	min-height: 100vh;
 }
