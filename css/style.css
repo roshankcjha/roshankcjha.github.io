@@ -331,6 +331,9 @@ footer{
 }
 
 @media(max-width:992px){
+	.collapse{
+		background: #000;
+	}
 
 	.navbar-light .navbar-toggler{
 		background:#fff;
