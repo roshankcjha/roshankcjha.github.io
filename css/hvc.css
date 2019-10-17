@@ -33,11 +33,13 @@ body{
   transform: translate(-50%,-50%);
 }
 .v-header{
-  height:100vh;
+  background:url("gallery/teamphotos/Tata here.JPG");
+  height:90vh;
   display:flex;
   align-items:center;
   color:#fff;
 }
+
 
 .container{
   max-width:960px;
@@ -48,27 +50,27 @@ body{
 }
 
 .fullscreen-video-wrap{
+ background: black;
   position:absolute;
   top:0;
   left:0;
   width:100%;
-  height:100vh;
+  height:auto;
   overflow:hidden;
 }
 
 .fullscreen-video-wrap video{
-  min-height:100%;
-  min-width:100%;
+ height:90vh;
+  max-width: -webkit-fill-available
 }
 
 .header-overlay{
-  height:100vh;
+  
   position: absolute;
   top:0;
   left:0;
   width:100vw;
   z-index:1;
-  
   opacity:0.85;
 }
 
@@ -219,5 +221,10 @@ footer{
     font-family: 'Barlow';
   }
 }
-
-
+.firstsection{
+    min-height: 500px;
+background: url('../gallery/planes/oa11.jpg'); 
+background-size: cover; 
+background-position: center center;
+background-repeat: no-repeat;
+  }
